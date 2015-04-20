@@ -1,0 +1,85 @@
+body { /* to ensure that there are no white borders around web page */
+    margin: 0;
+    padding: 0;
+}
+
+.title { /* style for main title */
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	z-index: 9;
+	margin-top: 0px; /* adjust this value if you want to shift pinned position */
+}
+
+#title_left { /* style for subhead of left half of the screen */
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+
+	position: fixed;
+	top: 0;
+	margin-top: 0px; /* adjust this value if you want to shift pinned position */
+	width: 50%;
+	z-index: 9;
+
+	display: none;
+}
+
+#title_right { /* style for subhead of right half of the screen */
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+
+	position: fixed;
+	top: 0;
+	margin-top: 0px; /* adjust this value if you want to shift pinned position */
+	width: 50%;
+	z-index: 9;
+
+	display: none;
+}
+
+.panel_left{ /* defines dimension of left half of the screen */
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 50%;
+}
+
+.panel_right { /* defines dimension of right half of the screen */
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}
+
+.panel { /* defines dimension of each individual panel */
+    width: 100%;
+}
+
+
+/* start of colors of each panel */
+#pane-1 {
+    background-color: green;
+}
+#pane-2 {
+    background-color: red;
+}
+#pane-3 {
+    background-color: white;
+}
+#pane-4 {
+    background-color: pink;
+}
+#pane-5 {
+    background-color: yellow;
+}
+/* end of colors of each panel */
+
