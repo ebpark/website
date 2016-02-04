@@ -4,7 +4,7 @@ body { /* to ensure that there are no white borders around web page */
 }
 
 .title { /* style for main title */
-	font-family: Helvetica;
+	font-family: "jubilat";
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
@@ -17,7 +17,7 @@ body { /* to ensure that there are no white borders around web page */
 }
 
 #title_left { /* style for subhead of left half of the screen */
-	font-family: Helvetica;
+	font-family: "jubilat";
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
@@ -32,7 +32,7 @@ body { /* to ensure that there are no white borders around web page */
 }
 
 #title_right { /* style for subhead of right half of the screen */
-	font-family: Helvetica;
+	font-family: "jubilat";
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
